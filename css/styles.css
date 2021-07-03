@@ -11,7 +11,9 @@ https://www.htmlcsscolor.com
 #F7FFF7 - Light green
 #A1C6D7 - Pale Cerulean
 rgb(243, 9, 48) - Red
+rgb(12, 241, 241)
 Teal
+Turquoise
 */
 
 
@@ -36,7 +38,8 @@ img {
   width: 300px;
   border-radius: 10px;
   animation-name: fadeIn;
-  animation-duration: 20s;
+  animation-duration: 10s;
+  box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.3);
 }
 @keyframes fadeIn{
   from {
@@ -96,7 +99,7 @@ header {
 }
 
 
-/* Portfolio
+/* ABOUT
 ------------------------------------*/
 .portfolios {
   background: #8c79ad;
@@ -122,6 +125,9 @@ header {
 }
 .portfolio-item h3 {
   margin-top: 0;
+}
+#bestie {
+  color: rgb(12, 241, 241);
 }
 
 
