@@ -34,6 +34,17 @@ body {
 }
 img {
   width: 300px;
+  border-radius: 10px;
+  animation-name: fadeIn;
+  animation-duration: 20s;
+}
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 a {
   color: #FFE66D;
@@ -103,6 +114,8 @@ header {
 }
 .portfolios .btn:hover {
   background: rgba(47, 48, 97, 80%);
+  color: turquoise;
+  text-decoration: underline;
 }
 .portfolio-item {
   overflow: hidden;
