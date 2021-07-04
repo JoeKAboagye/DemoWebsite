@@ -12,8 +12,12 @@ https://www.htmlcsscolor.com
 #A1C6D7 - Pale Cerulean
 rgb(243, 9, 48) - Red
 rgb(12, 241, 241)
+#d8ae96
 Teal
 Turquoise
+#9c9b52
+#f1cab3
+#baf59f
 */
 
 
@@ -147,7 +151,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background:linear-gradient(to right, teal, #ebb3e1) ;
+  background:linear-gradient(to right, teal, #d8ae96) ;
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
