@@ -94,7 +94,7 @@ h3 {
 /* Introduction
 ------------------------------------*/
 header {
-  background: #438bb4;
+  background: linear-gradient(to left, #438bb4 , #9c9b52) ;
   color: #efebf1;
 }
 
@@ -102,7 +102,7 @@ header {
 /* ABOUT
 ------------------------------------*/
 .portfolios {
-  background: #8c79ad;
+  background: linear-gradient(to right, #8c79ad, #f1cab3 ) ;
 }
 .portfolios a {
   color: #2F3061;
@@ -114,6 +114,7 @@ header {
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
+  margin: 0.35rem;
 }
 .portfolios .btn:hover {
   background: rgba(47, 48, 97, 80%);
@@ -135,7 +136,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background:linear-gradient(to left, #3884db, #baf59f) ;
 }
 .checkout {
  color: rgb(243, 9, 48);
@@ -146,7 +147,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background: teal;
+  background:linear-gradient(to right, teal, #80006b) ;
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
