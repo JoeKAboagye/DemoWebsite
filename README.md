@@ -1,4 +1,6 @@
 # Demo Website
-Website undergoing massive construction. 
- More changes and updates to be made often
-# Stay tuned
+
+- Website undergoing massive construction.
+- More changes and updates to be made often.
+
+## Stay tuned

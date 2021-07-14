@@ -177,6 +177,13 @@ footer {
 .time {
   border: 0.12rem solid rgb(255, 185, 80);
 }
+#Logos {
+  width: 35px;
+  height: 35px;
+  box-shadow: none;
+  animation: none;
+  border-radius: 50px;
+}
 
 /* Responsive
 ------------------------------------*/
@@ -215,6 +222,13 @@ footer {
   }
   .contact-list a {
     padding: 5px;
+  }
+  #Logos {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
   }
 }
 
