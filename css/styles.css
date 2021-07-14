@@ -178,8 +178,8 @@ footer {
   border: 0.12rem solid rgb(255, 185, 80);
 }
 #Logos {
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   box-shadow: none;
   animation: none;
   border-radius: 50px;
@@ -224,10 +224,10 @@ footer {
     padding: 5px;
   }
   #Logos {
-    /* position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
+    position: relative;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
     width: 30px;
     height: 30px;
   }
