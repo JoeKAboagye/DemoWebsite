@@ -213,6 +213,8 @@ footer {
   .contact-list a {
     padding: 5px;
   }
+  .time {
+    border: 0.12rem solid rgb(255, 185, 80);
 }
 
 @media screen and (min-width: 1025px) {
