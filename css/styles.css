@@ -224,9 +224,10 @@ footer {
     padding: 5px;
   }
   #Logos {
+    /* position: relative;
     display: flex;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
+    align-items: center; */
     width: 30px;
     height: 30px;
   }
