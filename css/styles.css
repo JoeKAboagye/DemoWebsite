@@ -20,13 +20,14 @@ Turquoise
 #baf59f
 */
 
-
 /* Global styles
 ------------------------------------*/
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -34,7 +35,7 @@ body {
   color: #0e0f0f;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -45,7 +46,7 @@ img {
   animation-duration: 10s;
   box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.3);
 }
-@keyframes fadeIn{
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -54,7 +55,7 @@ img {
   }
 }
 a {
-  color: #FFE66D;
+  color: #ffe66d;
 }
 a:hover {
   text-decoration: none;
@@ -66,8 +67,9 @@ h1 {
 h2 {
   font-size: 45px;
 }
-h1, h2 {
-  font-family: 'Caveat', cursive;
+h1,
+h2 {
+  font-family: "Caveat", cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -93,30 +95,29 @@ h3 {
 .divider > section:last-of-type {
   border-bottom: none;
 }
-abbr[title]:hover::after, abbr[title]:focus::after {
+abbr[title]:hover::after,
+abbr[title]:focus::after {
   content: attr(title);
 }
-
 
 /* Introduction
 ------------------------------------*/
 header {
-  background: linear-gradient(to left, #438bb4 , #9c9b52) ;
+  background: linear-gradient(to left, #438bb4, #9c9b52);
   color: #efebf1;
 }
-
 
 /* ABOUT
 ------------------------------------*/
 .portfolios {
-  background: linear-gradient(to right, #8c79ad, #f1cab3 ) ;
+  background: linear-gradient(to right, #8c79ad, #f1cab3);
 }
 .portfolios a {
-  color: #2F3061;
+  color: #2f3061;
 }
 .portfolios .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: #f7fff7;
+  background: #2f3061;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
@@ -138,23 +139,19 @@ header {
   color: rgb(12, 241, 241);
 }
 
-
-
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background:linear-gradient(to left, #3884db, #baf59f) ;
+  background: linear-gradient(to left, #3884db, #baf59f);
 }
 .checkout {
- color: rgb(243, 9, 48);
+  color: rgb(243, 9, 48);
 }
-
-
 
 /* Education
 ------------------------------------*/
 .education {
-  background:linear-gradient(to right, teal, #d8ae96) ;
+  background: linear-gradient(to right, teal, #d8ae96);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
@@ -163,12 +160,11 @@ header {
   width: 60%;
 }
 
-
 /* Contact Info
 ------------------------------------*/
 footer {
   background: #343434;
-  color: #F7FFF7;
+  color: #f7fff7;
 }
 .contact-list {
   list-style-type: none;
@@ -178,12 +174,15 @@ footer {
   padding: 15px;
   display: inline-block;
 }
-
+.time {
+  border: 0.12rem solid rgb(255, 185, 80);
+}
 
 /* Responsive
 ------------------------------------*/
-@media screen and (min-width:750px){
-  header, footer {
+@media screen and (min-width: 750px) {
+  header,
+  footer {
     text-align: center;
   }
   .portfolio-item img {
@@ -202,7 +201,7 @@ footer {
   }
 }
 
-@media screen and (max-width:749px){
+@media screen and (max-width: 749px) {
   h1 {
     font-size: 75px;
     line-height: 0.9;
@@ -216,16 +215,13 @@ footer {
   }
 }
 
-@media screen and (min-width: 1025px)
-{
-   abbr[title]
-   {
-      border-bottom: 0.15rem;
-      cursor:help;
-   }
+@media screen and (min-width: 1025px) {
+  abbr[title] {
+    border-bottom: 0.15rem;
+    cursor: help;
+  }
 
-   abbr[title]:after
-   {
-      content: "";
-   }
+  abbr[title]:after {
+    content: "";
+  }
 }

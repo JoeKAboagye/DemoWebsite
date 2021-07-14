@@ -215,16 +215,18 @@
             <li><a href="https://www.linkedin.com/in/joseph-aboagye-2a3a37130/" target="_blank">LinkedIn</a></li>
             <li><a href="https://twitter.com/jaboagye2" target="_blank">Twitter</a></li>
           </ul>
-          <script type="text/javascript" class="time"> 
-            var d=new Date(); 
-            var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday", "Saturday"); 
-            var monthname=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"); 
-            document.write(weekday[d.getDay()] + " "); 
-            document.write(d.getDate() + ", "); 
-            document.write(monthname[d.getMonth()] + " "); 
-            document.write(d.getFullYear() + ", ");
-            document.write(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
-          </script>
+          <span class="time">
+            <script type="text/javascript"> 
+              var d=new Date(); 
+              var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday", "Saturday"); 
+              var monthname=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"); 
+              document.write(weekday[d.getDay()] + " "); 
+              document.write(d.getDate() + ", "); 
+              document.write(monthname[d.getMonth()] + " "); 
+              document.write(d.getFullYear() + ", ");
+              document.write(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
+            </script>
+          </span>
         </div>
       </footer>
     </main>
