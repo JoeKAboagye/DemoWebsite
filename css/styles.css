@@ -110,7 +110,7 @@ header {
 /* ABOUT
 ------------------------------------*/
 .portfolios {
-  background: linear-gradient(to right, #8c79ad, #f1cab3);
+  background: linear-gradient(45deg, #8c79ad, #f1cab3);
 }
 .portfolios a {
   color: #2f3061;
@@ -142,7 +142,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: linear-gradient(to left, #3884db, #baf59f);
+  background: linear-gradient(45deg, #3884db, #baf59f);
 }
 .checkout {
   color: rgb(243, 9, 48);
@@ -151,7 +151,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background: linear-gradient(to right, teal, #d8ae96);
+  background: linear-gradient(225deg, teal, #d8ae96);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
