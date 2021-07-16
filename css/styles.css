@@ -105,6 +105,7 @@ abbr[title]:focus::after {
 header {
   background: linear-gradient(to left, #438bb4, #9c9b52);
   color: #efebf1;
+  border-bottom: 1px solid silver;
 }
 
 /* ABOUT
@@ -143,6 +144,7 @@ header {
 ------------------------------------*/
 .work-experience {
   background: linear-gradient(45deg, #3884db, #baf59f);
+  border-top: 1px solid silver;
 }
 .checkout {
   color: rgb(243, 9, 48);
@@ -155,6 +157,7 @@ header {
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
+  border-top: 1px solid silver;
 }
 .education p {
   width: 60%;
@@ -187,7 +190,7 @@ footer {
 
 /* Responsive
 ------------------------------------*/
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 320px) {
   header,
   footer {
     text-align: center;
@@ -211,7 +214,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 319px) {
   h1 {
     font-size: 75px;
     line-height: 0.9;
@@ -224,12 +227,13 @@ footer {
     padding: 5px;
   }
   #Logos {
-    position: relative;
-    display: inline-flex;
-    justify-items: center;
-    align-items: center;
+    text-align: center;
+    display: flex;
     width: 30px;
     height: 30px;
+  }
+  .portfolio-item img {
+    width: 95%;
   }
 }
 
