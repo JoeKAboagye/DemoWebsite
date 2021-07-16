@@ -237,6 +237,13 @@ footer {
   }
 }
 
+@media screen and (max-width: 749px) {
+  #Logos {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   abbr[title] {
     border-bottom: 0.15rem;
