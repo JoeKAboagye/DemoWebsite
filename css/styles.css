@@ -198,6 +198,7 @@ footer {
   .portfolio-item img {
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
 
   .job-item {
@@ -225,6 +226,7 @@ footer {
   }
   .portfolio-item img {
     width: 100%;
+    margin-bottom: 20px;
   }
   .contact-list {
     display: flex;
