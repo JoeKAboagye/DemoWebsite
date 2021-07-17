@@ -235,24 +235,6 @@ footer {
   }
 }
 
-/* @media screen and (max-width: 768px) {
-  #Logos {
-    width: 30px;
-    height: 30px;
-  }
-  h1 {
-    font-size: 75px;
-    line-height: 0.9;
-    margin-bottom: 20px;
-  }
-  h2 {
-    line-height: 1;
-  }
-  .contact-list a {
-    padding: 5px;
-  }
-} */
-
 @media screen and (min-width: 1025px) {
   abbr[title] {
     border-bottom: 0.15rem;
