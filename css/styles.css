@@ -223,15 +223,18 @@ footer {
   h2 {
     line-height: 1;
   }
+  .portfolio-item img {
+    width: 100%;
+  }
+  .contact-list {
+    display: flex;
+  }
   .contact-list a {
     padding: 5px;
   }
   #Logos {
     width: 30px;
     height: 30px;
-  }
-  .portfolio-item img {
-    width: 95%;
   }
 }
 
