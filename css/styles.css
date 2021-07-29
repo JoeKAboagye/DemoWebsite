@@ -104,7 +104,7 @@ abbr[title]:focus::after {
 ------------------------------------*/
 header {
   background: linear-gradient(to left, #438bb4, #9c9b52);
-  color: #efebf1;
+  color: rgb(59, 60, 54);
   border-bottom: 1px solid silver;
 }
 
