@@ -1,4 +1,4 @@
-// Log-in time on my website
+// Log-in time on website
 
 let d = new Date(); 
 let weekday = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday", "Saturday"); 
