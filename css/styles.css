@@ -179,7 +179,7 @@ footer {
 }
 .time {
   border: 0.12rem solid rgb(255, 185, 80);
-  display: inline-flex;
+  display: inline-block;
 }
 .Logos {
   width: 50px;
@@ -211,6 +211,7 @@ footer {
   }
   .time {
     border: 0.12rem solid rgb(255, 185, 80);
+    float: inherit;
   }
 }
 
