@@ -1,17 +1,17 @@
 // Log-in time on website
 
-let d = new Date(); 
-let weekday = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday", "Saturday"); 
-let monthname = new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"); 
-document.write(weekday[d.getDay()] + " "); 
-document.write(d.getDate() + ", "); 
-document.write(monthname[d.getMonth()] + " "); 
-document.write(d.getFullYear() + ", ");
-document.write(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
+let logInTime = new Date(); 
+let weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday", "Saturday"]; 
+let monthname = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; 
+document.write(weekday[logInTime.getDay()] + " "); 
+document.write(logInTime.getDate() + ", "); 
+document.write(monthname[logInTime.getMonth()] + " "); 
+document.write(logInTime.getFullYear() + ", ");
+document.write(logInTime.getHours() + ":" + logInTime.getMinutes() + ":" + logInTime.getSeconds());
 
-// Salutation
+// Appropriate Salutation at time of visit
 
-let hourNow = d.getHours();
+let hourNow = logInTime.getHours();
 let greeting;
 if (hourNow > 18) {
 greeting = "Good evening!";
