@@ -41,8 +41,14 @@ body {
 }
 img {
   width: 300px;
-  border-radius: 10px;
-  animation-name: fadeIn;
+  border-radius: 10px 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 10px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+/* animation-name: fadeIn;
   animation-duration: 10s;
   margin-bottom: 5px;
 }
@@ -53,7 +59,7 @@ img {
   to {
     opacity: 1;
   }
-}
+} */
 a {
   color: #ffe66d;
 }
@@ -180,17 +186,18 @@ footer {
 .time {
   border: 0.12rem solid rgb(255, 185, 80);
   display: inline-block;
+  padding: 2%;
 }
 .Logos {
   width: 50px;
   height: 50px;
   animation: none;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
 /* Responsive
 ------------------------------------*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 721px) {
   header,
   footer {
     text-align: center;
@@ -210,12 +217,15 @@ footer {
     justify-content: center;
   }
   .time {
-    border: 0.12rem solid rgb(255, 185, 80);
     float: inherit;
+  }
+  .Hobbies {
+    position: relative;
+    left: 1.2rem;
   }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 720px) {
   h1 {
     font-size: 75px;
     line-height: 0.9;
