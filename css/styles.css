@@ -1,23 +1,6 @@
 /*
 COLOR PALETTE
 https://www.htmlcsscolor.com
-#0e0f0f - Near black
-#FFE66D - Orange Yellow
-#438bb4 - Light blue
-#efebf1 - Off white
-#8c79ad - Purple
-#343434 - dark gray - almost black
-#2F3061 - Dark blue 
-#F7FFF7 - Light green
-#A1C6D7 - Pale Cerulean
-rgb(243, 9, 48) - Red
-rgb(12, 241, 241)
-#d8ae96
-Teal
-Turquoise
-#9c9b52
-#f1cab3
-#baf59f
 */
 
 /* Global styles
@@ -44,9 +27,12 @@ img {
   border-radius: 10px 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   margin: 10px;
+  transform: scale(0.95);
+  transition: transform 1s;
 }
 img:hover {
-  transform: scale(1.1);
+  transform: scale(1);
+  transition: transform 2s;
 }
 /* animation-name: fadeIn;
   animation-duration: 10s;
@@ -119,6 +105,10 @@ header {
 .portfolios {
   background: linear-gradient(45deg, #8c79ad, #f1cab3);
 }
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+}
 .portfolios a {
   color: #2f3061;
 }
@@ -143,7 +133,7 @@ header {
   margin-top: 0;
 }
 #bestie {
-  color: rgb(12, 241, 241);
+  color: rgb(192, 72, 3);
 }
 
 /* Work Experience
@@ -194,6 +184,9 @@ footer {
   animation: none;
   border-radius: 50%;
 }
+.Copyright {
+  margin-top: 50px;
+}
 
 /* Responsive
 ------------------------------------*/
@@ -233,9 +226,6 @@ footer {
   }
   h2 {
     line-height: 1;
-  }
-  .portfolio-item img {
-    width: 100%;
   }
   .contact-list {
     display: flex;
